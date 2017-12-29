@@ -1,4 +1,10 @@
 # egg-react-robot
+[![Build Status](https://travis-ci.org/Raoul1996/robot.svg?branch=master)](https://travis-ci.org/Raoul1996/robot)
+[![bitHound Overall Score](https://www.bithound.io/github/Raoul1996/robot/badges/score.svg)](https://www.bithound.io/github/Raoul1996/robot)
+[![bitHound Dependencies](https://www.bithound.io/github/Raoul1996/robot/badges/dependencies.svg)](https://www.bithound.io/github/Raoul1996/robot/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/Raoul1996/robot/badges/devDependencies.svg)](https://www.bithound.io/github/Raoul1996/robot/master/dependencies/npm)
+[![bitHound Code](https://www.bithound.io/github/Raoul1996/robot/badges/code.svg)](https://www.bithound.io/github/Raoul1996/robot)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fe3c319a169a79af17ba/maintainability)](https://codeclimate.com/github/Raoul1996/robot/maintainability)
 
 > 悲从心头起，锅从天上来。体验一波 SSR
 
