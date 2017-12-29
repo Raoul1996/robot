@@ -1,19 +1,18 @@
 import React, {Component} from 'react'
 import Header from 'component/header/header.jsx'
-import List from 'component/home/list.jsx'
-import './home.css'
+import './uploader.css'
 
 export default class Home extends Component {
   componentDidMount() {
-    console.log('----componentDidMount-----')
+    console.log('----Uploader is ok-----')
   }
 
   render() {
     return <div>
       <Header />
       <div className="main">
-        <div className="page-container page-component">
-          <List list={this.props.list} />
+        <div className="uploader">
+          你二大爷！！！！
         </div>
       </div>
     </div>

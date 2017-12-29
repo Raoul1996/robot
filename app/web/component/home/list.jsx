@@ -32,7 +32,7 @@ export default class List extends Component {
                         <span className="timeago">{item.summary}</span>
                       </li>
                       <li>
-                        <span className="timeago"></span>
+                        <span className="timeago"/>
                       </li>
                     </ul>
                   </div>

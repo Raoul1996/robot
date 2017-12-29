@@ -17,11 +17,17 @@ module.exports = app => {
     dir: path.join(app.baseDir, 'public')
   }
 
-  exports.keys = '123456'
+  exports.keys = 'lose soul, lose heart'
 
   exports.middleware = [
-    'access'
+    'access',
+    'errorHandler'
   ]
-
-  return exports
+  // TODO：关闭 csrf，不安全的设置
+  exports.security = {
+    csrf: {
+      enable: false
+    }
+  }
+return exports
 }
