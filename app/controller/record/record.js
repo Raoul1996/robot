@@ -28,7 +28,11 @@ module.exports = app => {
     async record() {
       const {ctx, ctx: {request: {body}}} = this
       // ctx.validate(createRule)
-      const res = await ctx.service.record.save(body)
+      const res = await ctx.service.record.save({
+        created_at: new Date().getTime(),
+        updated_at: new Date().getTime(),
+        ...body
+      })
       // 设置响应体和状态码
       ctx.body = {
         success: res
@@ -38,7 +42,7 @@ module.exports = app => {
     async all() {
       const {ctx} = this
       const res = await ctx.service.record.all()
-      ctx.body =res
+      ctx.body = res
     }
   }
 
