@@ -20,11 +20,11 @@
   "layout.js": "/public/js/layout.js",
   "common.js": "/public/js/common.js",
   "img/loading.gif": "/public/img/loading.gif",
-  "vendor.js": "/public/js/vendor.ba039d24.js",
+  "vendor.js": "/public/js/vendor.js",
   "deps": {
     "spa/ssr.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/spa/ssr.js"
       ],
@@ -34,7 +34,7 @@
     },
     "spa/redux.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/spa/redux.js"
       ],
@@ -44,7 +44,7 @@
     },
     "ant/tab/tab.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/ant/tab/tab.js"
       ],
@@ -54,7 +54,7 @@
     },
     "spa/client.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/spa/client.js"
       ],
@@ -64,7 +64,7 @@
     },
     "css/module/module.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/css/module/module.js"
       ],
@@ -74,7 +74,7 @@
     },
     "uploader/uploader.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/uploader/uploader.js"
       ],
@@ -84,7 +84,7 @@
     },
     "home/home.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/home/home.js"
       ],
@@ -94,7 +94,7 @@
     },
     "hello/element.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/hello/element.js"
       ],
@@ -104,7 +104,7 @@
     },
     "hello/component.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/hello/component.js"
       ],
@@ -114,7 +114,7 @@
     },
     "layout.js": {
       "js": [
-        "/public/js/vendor.ba039d24.js",
+        "/public/js/vendor.js",
         "/public/js/common.js",
         "/public/js/layout.js"
       ],
@@ -130,7 +130,7 @@
     "vendor.js": {
       "js": [
         "/public/js/common.js",
-        "/public/js/vendor.ba039d24.js"
+        "/public/js/vendor.js"
       ],
       "css": []
     }
