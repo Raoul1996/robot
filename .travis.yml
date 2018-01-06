@@ -42,7 +42,7 @@ after_success:
 - ssh ubuntu@123.207.252.230 'cd /usr/share/nginx/html/robot && tar -jxf robot.tar.bz2 && rm -rf robot.tar.bz2'
 # 重启，让更改生效
 - ssh ubuntu@123.207.252.230 'pm2 stop index -f '
-- ssh ubuntu@123.207.252.230 'cd /usr/share/nginx/html/robot && pm2 start index.js'
+- ssh ubuntu@123.207.252.230 'cd /usr/share/nginx/html/robot && npm run deploy:prod'
 # 查看 pm2 的状态
 - ssh ubuntu@123.207.252.230 'pm2 show index'
 after_script:
