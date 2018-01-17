@@ -1,6 +1,6 @@
 module.exports = app => {
-  app.get('/user/:id', app.controller.user.user.info)
   app.get('/', app.controller.home.home.index)
+  app.get('/user/:id', app.controller.user.user.info)
   app.get('/record/:id', app.controller.record.record.index)
   app.get('/record', app.controller.record.record.all)
   app.post('/record', app.controller.record.record.record)

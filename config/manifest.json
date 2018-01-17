@@ -5,12 +5,12 @@
   "spa/redux.css": "/public/css/spa/redux.css",
   "ant/tab/tab.js": "/public/js/ant/tab/tab.js",
   "ant/tab/tab.css": "/public/css/ant/tab/tab.css",
+  "records/records.js": "/public/js/records/records.js",
+  "records/records.css": "/public/css/records/records.css",
   "spa/client.js": "/public/js/spa/client.js",
   "spa/client.css": "/public/css/spa/client.css",
   "css/module/module.js": "/public/js/css/module/module.js",
   "css/module/module.css": "/public/css/css/module/module.css",
-  "uploader/uploader.js": "/public/js/uploader/uploader.js",
-  "uploader/uploader.css": "/public/css/uploader/uploader.css",
   "home/home.js": "/public/js/home/home.js",
   "home/home.css": "/public/css/home/home.css",
   "hello/element.js": "/public/js/hello/element.js",
@@ -52,6 +52,16 @@
         "/public/css/ant/tab/tab.css"
       ]
     },
+    "records/records.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/records/records.js"
+      ],
+      "css": [
+        "/public/css/records/records.css"
+      ]
+    },
     "spa/client.js": {
       "js": [
         "/public/js/vendor.js",
@@ -70,16 +80,6 @@
       ],
       "css": [
         "/public/css/css/module/module.css"
-      ]
-    },
-    "uploader/uploader.js": {
-      "js": [
-        "/public/js/vendor.js",
-        "/public/js/common.js",
-        "/public/js/uploader/uploader.js"
-      ],
-      "css": [
-        "/public/css/uploader/uploader.css"
       ]
     },
     "home/home.js": {

@@ -22,7 +22,7 @@ module.exports = app => {
     async index() {
       const {ctx, ctx: {params}} = this
       const res = await ctx.service.record.get(params.id)
-      ctx.body = res
+      await ctx.render('records/records.js', res)
     }
 
     async record() {
@@ -42,7 +42,7 @@ module.exports = app => {
     async all() {
       const {ctx} = this
       const res = await ctx.service.record.all()
-      ctx.body = res
+      await ctx.render('records/records.js', {records: [...res]})
     }
   }
 

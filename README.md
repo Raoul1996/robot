@@ -28,7 +28,8 @@
 - 在创建新的 router 之后，需要重启服务
 - [关闭安全威胁csrf防范？](https://github.com/eggjs/egg/issues/509)，这个设置极其不安全，所以打了 TODO
 - 配置数据库是在 config 下面的 plugin 中开启，在 config/config.${env}.js 配置各个环境的数据库连接信息
-
+#### 20180117 Recharts 配置与按需引用，并绘制散点图
+- Recharts 中的 dataKey 对应的值需要时数字，使用字符串不能绘制出图像，所以修改数据库records 表中的 varchar -> bigint
 
 ## 开发日志
 #### 20171230
@@ -36,3 +37,7 @@
 - 熟悉框架
 - 设计数据表
 - 设计接口
+#### 20180117
+- 服务端渲染模板配置
+- 引入 Recharts
+- 按需引用
