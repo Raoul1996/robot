@@ -23,14 +23,14 @@
     "egg-view-react-ssr": "^2.1.0",
     "extend": "~3.0.0",
     "history": "^4.7.2",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.17",
     "mockjs": "^1.0.1-beta3",
     "moment": "^2.17.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
     "react-router-config": "^1.0.0-beta.4",
-    "recharts": "^1.0.0-beta.9"
+    "recharts": "^1.0.0"
   },
   "devDependencies": {
     "antd": "^3.0.3",
